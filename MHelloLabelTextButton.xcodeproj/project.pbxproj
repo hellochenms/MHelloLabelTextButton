@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		90D8EC971F17C7FE007C9093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC961F17C7FE007C9093 /* main.m */; };
 		90D8EC9A1F17C7FE007C9093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC991F17C7FE007C9093 /* AppDelegate.m */; };
-		90D8EC9D1F17C7FE007C9093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC9C1F17C7FE007C9093 /* ViewController.m */; };
+		90D8EC9D1F17C7FE007C9093 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC9C1F17C7FE007C9093 /* RootViewController.m */; };
 		90D8ECA01F17C7FE007C9093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D8EC9E1F17C7FE007C9093 /* Main.storyboard */; };
 		90D8ECA21F17C7FE007C9093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D8ECA11F17C7FE007C9093 /* Assets.xcassets */; };
 		90D8ECA51F17C7FE007C9093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D8ECA31F17C7FE007C9093 /* LaunchScreen.storyboard */; };
+		90D8ECB31F17CD28007C9093 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8ECB21F17CD28007C9093 /* LabelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		90D8EC961F17C7FE007C9093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90D8EC981F17C7FE007C9093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90D8EC991F17C7FE007C9093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		90D8EC9B1F17C7FE007C9093 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		90D8EC9C1F17C7FE007C9093 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90D8EC9B1F17C7FE007C9093 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		90D8EC9C1F17C7FE007C9093 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		90D8EC9F1F17C7FE007C9093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90D8ECA11F17C7FE007C9093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90D8ECA41F17C7FE007C9093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90D8ECA61F17C7FE007C9093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D8ECB11F17CD28007C9093 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		90D8ECB21F17CD28007C9093 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,10 @@
 			children = (
 				90D8EC981F17C7FE007C9093 /* AppDelegate.h */,
 				90D8EC991F17C7FE007C9093 /* AppDelegate.m */,
-				90D8EC9B1F17C7FE007C9093 /* ViewController.h */,
-				90D8EC9C1F17C7FE007C9093 /* ViewController.m */,
+				90D8EC9B1F17C7FE007C9093 /* RootViewController.h */,
+				90D8EC9C1F17C7FE007C9093 /* RootViewController.m */,
 				90D8EC9E1F17C7FE007C9093 /* Main.storyboard */,
+				90D8ECAC1F17CCFB007C9093 /* UI */,
 				90D8ECA11F17C7FE007C9093 /* Assets.xcassets */,
 				90D8ECA31F17C7FE007C9093 /* LaunchScreen.storyboard */,
 				90D8ECA61F17C7FE007C9093 /* Info.plist */,
@@ -77,6 +81,48 @@
 				90D8EC961F17C7FE007C9093 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90D8ECAC1F17CCFB007C9093 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				90D8ECAE1F17CCFB007C9093 /* Label */,
+				90D8ECAD1F17CCFB007C9093 /* Button */,
+				90D8ECAF1F17CCFB007C9093 /* TextField */,
+				90D8ECB01F17CCFB007C9093 /* TextView */,
+			);
+			name = UI;
+			path = Sources/UI;
+			sourceTree = "<group>";
+		};
+		90D8ECAD1F17CCFB007C9093 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		90D8ECAE1F17CCFB007C9093 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				90D8ECB11F17CD28007C9093 /* LabelViewController.h */,
+				90D8ECB21F17CD28007C9093 /* LabelViewController.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		90D8ECAF1F17CCFB007C9093 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		90D8ECB01F17CCFB007C9093 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +196,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D8EC9D1F17C7FE007C9093 /* ViewController.m in Sources */,
+				90D8EC9D1F17C7FE007C9093 /* RootViewController.m in Sources */,
 				90D8EC9A1F17C7FE007C9093 /* AppDelegate.m in Sources */,
 				90D8EC971F17C7FE007C9093 /* main.m in Sources */,
+				90D8ECB31F17CD28007C9093 /* LabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,6 +356,7 @@
 				90D8ECAB1F17C7FE007C9093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LabelViewController.h
 //  MHelloLabelTextButton
 //
 //  Created by chenms on 17/7/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LabelViewController : UIViewController
 
 @end
-
