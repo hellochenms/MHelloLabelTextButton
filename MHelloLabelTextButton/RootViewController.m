@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "LabelViewController.h"
+#import "LabelHeightViewController.h"
 
 @interface RootViewController (Table)<UITableViewDataSource, UITableViewDelegate>
 - (void)initDatas;
@@ -59,7 +60,8 @@
 @implementation RootViewController (Table)
 #pragma mark - Init
 - (void)initDatas {
-    self.datas = @[@[@"Label", [LabelViewController class]],
+    self.datas = @[@[@"Label高度问题", [LabelViewController class]],
+                   @[@"Label高度方案", [LabelHeightViewController class]],
                    ];
 }
 

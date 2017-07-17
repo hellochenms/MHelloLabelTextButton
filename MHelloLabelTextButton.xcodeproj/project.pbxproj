@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90C095331F1A041D0006FA7D /* NSString+M2Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C095321F1A041D0006FA7D /* NSString+M2Size.m */; };
+		90C095361F1A08650006FA7D /* LabelHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C095351F1A08650006FA7D /* LabelHeightViewController.m */; };
+		90C095391F1A09910006FA7D /* LabelHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C095381F1A09910006FA7D /* LabelHeightCell.m */; };
+		90C0953C1F1A0A9D0006FA7D /* M7TempDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0953B1F1A0A9D0006FA7D /* M7TempDataGenerator.m */; };
+		90C095481F1F52C50006FA7D /* LabelHeightCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C095471F1F52C50006FA7D /* LabelHeightCellLayout.m */; };
+		90C0954A1F1F61400006FA7D /* font.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C095491F1F61400006FA7D /* font.png */; };
+		90C0954D1F1F68240006FA7D /* LabelHeightData.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0954C1F1F68240006FA7D /* LabelHeightData.m */; };
+		90C095501F1F6A490006FA7D /* LabelHeightData+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0954F1F1F6A490006FA7D /* LabelHeightData+Layout.m */; };
 		90D8EC971F17C7FE007C9093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC961F17C7FE007C9093 /* main.m */; };
 		90D8EC9A1F17C7FE007C9093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC991F17C7FE007C9093 /* AppDelegate.m */; };
 		90D8EC9D1F17C7FE007C9093 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC9C1F17C7FE007C9093 /* RootViewController.m */; };
@@ -17,6 +25,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90C095311F1A041D0006FA7D /* NSString+M2Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+M2Size.h"; sourceTree = "<group>"; };
+		90C095321F1A041D0006FA7D /* NSString+M2Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+M2Size.m"; sourceTree = "<group>"; };
+		90C095341F1A08650006FA7D /* LabelHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeightViewController.h; sourceTree = "<group>"; };
+		90C095351F1A08650006FA7D /* LabelHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeightViewController.m; sourceTree = "<group>"; };
+		90C095371F1A09910006FA7D /* LabelHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeightCell.h; sourceTree = "<group>"; };
+		90C095381F1A09910006FA7D /* LabelHeightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeightCell.m; sourceTree = "<group>"; };
+		90C0953A1F1A0A9D0006FA7D /* M7TempDataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M7TempDataGenerator.h; sourceTree = "<group>"; };
+		90C0953B1F1A0A9D0006FA7D /* M7TempDataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M7TempDataGenerator.m; sourceTree = "<group>"; };
+		90C095461F1F52C50006FA7D /* LabelHeightCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeightCellLayout.h; sourceTree = "<group>"; };
+		90C095471F1F52C50006FA7D /* LabelHeightCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeightCellLayout.m; sourceTree = "<group>"; };
+		90C095491F1F61400006FA7D /* font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font.png; sourceTree = "<group>"; };
+		90C0954B1F1F68240006FA7D /* LabelHeightData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeightData.h; sourceTree = "<group>"; };
+		90C0954C1F1F68240006FA7D /* LabelHeightData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeightData.m; sourceTree = "<group>"; };
+		90C0954E1F1F6A490006FA7D /* LabelHeightData+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LabelHeightData+Layout.h"; sourceTree = "<group>"; };
+		90C0954F1F1F6A490006FA7D /* LabelHeightData+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LabelHeightData+Layout.m"; sourceTree = "<group>"; };
 		90D8EC921F17C7FE007C9093 /* MHelloLabelTextButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHelloLabelTextButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D8EC961F17C7FE007C9093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90D8EC981F17C7FE007C9093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90C095301F1A04000006FA7D /* M2 */ = {
+			isa = PBXGroup;
+			children = (
+				90C095311F1A041D0006FA7D /* NSString+M2Size.h */,
+				90C095321F1A041D0006FA7D /* NSString+M2Size.m */,
+				90C0953A1F1A0A9D0006FA7D /* M7TempDataGenerator.h */,
+				90C0953B1F1A0A9D0006FA7D /* M7TempDataGenerator.m */,
+			);
+			path = M2;
+			sourceTree = "<group>";
+		};
 		90D8EC891F17C7FE007C9093 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +120,7 @@
 		90D8ECAC1F17CCFB007C9093 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				90C095301F1A04000006FA7D /* M2 */,
 				90D8ECAE1F17CCFB007C9093 /* Label */,
 				90D8ECAD1F17CCFB007C9093 /* Button */,
 				90D8ECAF1F17CCFB007C9093 /* TextField */,
@@ -107,6 +142,17 @@
 			children = (
 				90D8ECB11F17CD28007C9093 /* LabelViewController.h */,
 				90D8ECB21F17CD28007C9093 /* LabelViewController.m */,
+				90C095491F1F61400006FA7D /* font.png */,
+				90C095341F1A08650006FA7D /* LabelHeightViewController.h */,
+				90C095351F1A08650006FA7D /* LabelHeightViewController.m */,
+				90C095371F1A09910006FA7D /* LabelHeightCell.h */,
+				90C095381F1A09910006FA7D /* LabelHeightCell.m */,
+				90C095461F1F52C50006FA7D /* LabelHeightCellLayout.h */,
+				90C095471F1F52C50006FA7D /* LabelHeightCellLayout.m */,
+				90C0954B1F1F68240006FA7D /* LabelHeightData.h */,
+				90C0954C1F1F68240006FA7D /* LabelHeightData.m */,
+				90C0954E1F1F6A490006FA7D /* LabelHeightData+Layout.h */,
+				90C0954F1F1F6A490006FA7D /* LabelHeightData+Layout.m */,
 			);
 			path = Label;
 			sourceTree = "<group>";
@@ -186,6 +232,7 @@
 				90D8ECA51F17C7FE007C9093 /* LaunchScreen.storyboard in Resources */,
 				90D8ECA21F17C7FE007C9093 /* Assets.xcassets in Resources */,
 				90D8ECA01F17C7FE007C9093 /* Main.storyboard in Resources */,
+				90C0954A1F1F61400006FA7D /* font.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,9 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C095481F1F52C50006FA7D /* LabelHeightCellLayout.m in Sources */,
+				90C0954D1F1F68240006FA7D /* LabelHeightData.m in Sources */,
 				90D8EC9D1F17C7FE007C9093 /* RootViewController.m in Sources */,
 				90D8EC9A1F17C7FE007C9093 /* AppDelegate.m in Sources */,
 				90D8EC971F17C7FE007C9093 /* main.m in Sources */,
+				90C095501F1F6A490006FA7D /* LabelHeightData+Layout.m in Sources */,
+				90C095331F1A041D0006FA7D /* NSString+M2Size.m in Sources */,
+				90C095361F1A08650006FA7D /* LabelHeightViewController.m in Sources */,
+				90C095391F1A09910006FA7D /* LabelHeightCell.m in Sources */,
+				90C0953C1F1A0A9D0006FA7D /* M7TempDataGenerator.m in Sources */,
 				90D8ECB31F17CD28007C9093 /* LabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
