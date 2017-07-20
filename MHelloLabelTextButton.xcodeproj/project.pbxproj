@@ -15,6 +15,9 @@
 		90C0954A1F1F61400006FA7D /* font.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C095491F1F61400006FA7D /* font.png */; };
 		90C0954D1F1F68240006FA7D /* LabelHeightData.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0954C1F1F68240006FA7D /* LabelHeightData.m */; };
 		90C095501F1F6A490006FA7D /* LabelHeightData+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0954F1F1F6A490006FA7D /* LabelHeightData+Layout.m */; };
+		90C095531F1FA3DC0006FA7D /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C095521F1FA3DC0006FA7D /* ButtonViewController.m */; };
+		90C0955C1F1FA81E0006FA7D /* UIButton+M2InsetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0955B1F1FA81E0006FA7D /* UIButton+M2InsetColor.m */; };
+		90C0955E1F20E8350006FA7D /* iOS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0955D1F20E8350006FA7D /* iOS@2x.png */; };
 		90D8EC971F17C7FE007C9093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC961F17C7FE007C9093 /* main.m */; };
 		90D8EC9A1F17C7FE007C9093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC991F17C7FE007C9093 /* AppDelegate.m */; };
 		90D8EC9D1F17C7FE007C9093 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8EC9C1F17C7FE007C9093 /* RootViewController.m */; };
@@ -40,6 +43,11 @@
 		90C0954C1F1F68240006FA7D /* LabelHeightData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeightData.m; sourceTree = "<group>"; };
 		90C0954E1F1F6A490006FA7D /* LabelHeightData+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LabelHeightData+Layout.h"; sourceTree = "<group>"; };
 		90C0954F1F1F6A490006FA7D /* LabelHeightData+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LabelHeightData+Layout.m"; sourceTree = "<group>"; };
+		90C095511F1FA3DC0006FA7D /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		90C095521F1FA3DC0006FA7D /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		90C0955A1F1FA81E0006FA7D /* UIButton+M2InsetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+M2InsetColor.h"; sourceTree = "<group>"; };
+		90C0955B1F1FA81E0006FA7D /* UIButton+M2InsetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+M2InsetColor.m"; sourceTree = "<group>"; };
+		90C0955D1F20E8350006FA7D /* iOS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS@2x.png"; sourceTree = "<group>"; };
 		90D8EC921F17C7FE007C9093 /* MHelloLabelTextButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHelloLabelTextButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D8EC961F17C7FE007C9093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90D8EC981F17C7FE007C9093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +80,8 @@
 				90C095321F1A041D0006FA7D /* NSString+M2Size.m */,
 				90C0953A1F1A0A9D0006FA7D /* M7TempDataGenerator.h */,
 				90C0953B1F1A0A9D0006FA7D /* M7TempDataGenerator.m */,
+				90C0955A1F1FA81E0006FA7D /* UIButton+M2InsetColor.h */,
+				90C0955B1F1FA81E0006FA7D /* UIButton+M2InsetColor.m */,
 			);
 			path = M2;
 			sourceTree = "<group>";
@@ -133,6 +143,9 @@
 		90D8ECAD1F17CCFB007C9093 /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				90C095511F1FA3DC0006FA7D /* ButtonViewController.h */,
+				90C095521F1FA3DC0006FA7D /* ButtonViewController.m */,
+				90C0955D1F20E8350006FA7D /* iOS@2x.png */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -232,6 +245,7 @@
 				90D8ECA51F17C7FE007C9093 /* LaunchScreen.storyboard in Resources */,
 				90D8ECA21F17C7FE007C9093 /* Assets.xcassets in Resources */,
 				90D8ECA01F17C7FE007C9093 /* Main.storyboard in Resources */,
+				90C0955E1F20E8350006FA7D /* iOS@2x.png in Resources */,
 				90C0954A1F1F61400006FA7D /* font.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,8 +259,10 @@
 			files = (
 				90C095481F1F52C50006FA7D /* LabelHeightCellLayout.m in Sources */,
 				90C0954D1F1F68240006FA7D /* LabelHeightData.m in Sources */,
+				90C0955C1F1FA81E0006FA7D /* UIButton+M2InsetColor.m in Sources */,
 				90D8EC9D1F17C7FE007C9093 /* RootViewController.m in Sources */,
 				90D8EC9A1F17C7FE007C9093 /* AppDelegate.m in Sources */,
+				90C095531F1FA3DC0006FA7D /* ButtonViewController.m in Sources */,
 				90D8EC971F17C7FE007C9093 /* main.m in Sources */,
 				90C095501F1F6A490006FA7D /* LabelHeightData+Layout.m in Sources */,
 				90C095331F1A041D0006FA7D /* NSString+M2Size.m in Sources */,

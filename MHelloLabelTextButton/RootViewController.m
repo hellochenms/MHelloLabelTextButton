@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "LabelViewController.h"
 #import "LabelHeightViewController.h"
+#import "ButtonViewController.h"
 
 @interface RootViewController (Table)<UITableViewDataSource, UITableViewDelegate>
 - (void)initDatas;
@@ -60,8 +61,9 @@
 @implementation RootViewController (Table)
 #pragma mark - Init
 - (void)initDatas {
-    self.datas = @[@[@"Label高度问题", [LabelViewController class]],
-                   @[@"Label高度方案", [LabelHeightViewController class]],
+    self.datas = @[@[@"Label天然Padding问题展示", [LabelViewController class]],
+                   @[@"Label行间距方案/Cell高度缓存", [LabelHeightViewController class]],
+                   @[@"Button内容偏移/纯色", [ButtonViewController class]],
                    ];
 }
 
