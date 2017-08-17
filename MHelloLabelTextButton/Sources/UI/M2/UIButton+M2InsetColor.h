@@ -10,6 +10,7 @@
 
 @interface UIButton (M2InsetColor)
 - (void)m2_layoutImageTitleVerticalForImageOffsetY:(double)imageOffsetY distance:(double)distance;
+- (void)m2_layoutImageTitleForDistance:(double)distance;
 - (void)m2_setBackgroundColor:(nullable UIColor *)color forState:(UIControlState)state;
 // 只支持RGB/RGBA写法，有无0x前缀都可以
 - (void)m2_setBackgroundColorHexRGBA:(nullable NSString*)hexRGBA forState:(UIControlState)state;

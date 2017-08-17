@@ -10,7 +10,7 @@
 #import "UIButton+M2InsetColor.h"
 
 static double const kMargin = 20;
-static double const kHeight = 60;
+static double const kHeight = 50;
 
 @interface ButtonViewController ()
 @property (nonatomic) UIButton *imageTextDistanceButton;
@@ -19,6 +19,7 @@ static double const kHeight = 60;
 @property (nonatomic) UIView *rightIcon;
 @property (nonatomic) UIButton *textRightAlignButton;
 @property (nonatomic) UIButton *imageTextVerticalButton;
+@property (nonatomic) UIButton *textImageDistanceButton;
 @property (nonatomic) UIButton *colorBgButton;
 @end
 
@@ -40,6 +41,7 @@ static double const kHeight = 60;
     [self.view addSubview:self.rightIcon];
     [self.view addSubview:self.textRightAlignButton];
     [self.view addSubview:self.imageTextVerticalButton];
+    [self.view addSubview:self.textImageDistanceButton];
     [self.view addSubview:self.colorBgButton];
 }
 
@@ -65,7 +67,9 @@ static double const kHeight = 60;
     // 需求：button的图标和文字上下排列，间距20
     [self.imageTextVerticalButton m2_layoutImageTitleVerticalForImageOffsetY:20 distance:20];
     
-    self.colorBgButton.frame = CGRectMake(kMargin, CGRectGetMaxY(self.imageTextVerticalButton.frame) + kMargin, containerWidth - kMargin * 2, kHeight);
+    self.textImageDistanceButton.frame = CGRectMake(kMargin, CGRectGetMaxY(self.imageTextVerticalButton.frame) + kMargin, containerWidth - kMargin * 2, kHeight);
+    
+    self.colorBgButton.frame = CGRectMake(kMargin, CGRectGetMaxY(self.textImageDistanceButton.frame) + kMargin, containerWidth - kMargin * 2, kHeight);
 }
 
 #pragma mark - Getter
@@ -156,6 +160,22 @@ static double const kHeight = 60;
     
     return _imageTextVerticalButton;
 }
+
+- (UIButton *)textImageDistanceButton {
+    if (!_textImageDistanceButton) {
+        _textImageDistanceButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _textImageDistanceButton.backgroundColor = [UIColor brownColor];
+        _textImageDistanceButton.imageView.backgroundColor = [UIColor blueColor];
+        [_textImageDistanceButton setImage:[UIImage imageNamed:@"iOS"] forState:UIControlStateNormal];
+        _textImageDistanceButton.titleLabel.backgroundColor = [UIColor blueColor];
+        [_textImageDistanceButton setTitle:@"0123你好0123你好0123你好" forState:UIControlStateNormal];
+        [_textImageDistanceButton m2_layoutImageTitleForDistance:50];
+    }
+    
+    return _textImageDistanceButton;
+}
+
+
 
 - (UIButton *)colorBgButton {
     if (!_colorBgButton) {
