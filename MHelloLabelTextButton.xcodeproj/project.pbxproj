@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90C095331F1A041D0006FA7D /* NSString+M2Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C095321F1A041D0006FA7D /* NSString+M2Size.m */; };
 		90C095361F1A08650006FA7D /* LabelHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C095351F1A08650006FA7D /* LabelHeightViewController.m */; };
 		90C095391F1A09910006FA7D /* LabelHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C095381F1A09910006FA7D /* LabelHeightCell.m */; };
 		90C0953C1F1A0A9D0006FA7D /* M7TempDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0953B1F1A0A9D0006FA7D /* M7TempDataGenerator.m */; };
@@ -25,11 +24,13 @@
 		90D8ECA21F17C7FE007C9093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D8ECA11F17C7FE007C9093 /* Assets.xcassets */; };
 		90D8ECA51F17C7FE007C9093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D8ECA31F17C7FE007C9093 /* LaunchScreen.storyboard */; };
 		90D8ECB31F17CD28007C9093 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8ECB21F17CD28007C9093 /* LabelViewController.m */; };
+		997BF8881FEFEF8100922857 /* NSString+M2Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 997BF8861FEFEF8100922857 /* NSString+M2Size.m */; };
+		997BF88C1FEFF01600922857 /* PreciseSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 997BF88B1FEFF01600922857 /* PreciseSizeViewController.m */; };
+		997BF88F1FEFF4CD00922857 /* UIFont+M2Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 997BF88E1FEFF4CD00922857 /* UIFont+M2Size.m */; };
+		997BF8921FEFF7EF00922857 /* UIFont+desc.m in Sources */ = {isa = PBXBuildFile; fileRef = 997BF8911FEFF7EE00922857 /* UIFont+desc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		90C095311F1A041D0006FA7D /* NSString+M2Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+M2Size.h"; sourceTree = "<group>"; };
-		90C095321F1A041D0006FA7D /* NSString+M2Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+M2Size.m"; sourceTree = "<group>"; };
 		90C095341F1A08650006FA7D /* LabelHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeightViewController.h; sourceTree = "<group>"; };
 		90C095351F1A08650006FA7D /* LabelHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeightViewController.m; sourceTree = "<group>"; };
 		90C095371F1A09910006FA7D /* LabelHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeightCell.h; sourceTree = "<group>"; };
@@ -60,6 +61,14 @@
 		90D8ECA61F17C7FE007C9093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90D8ECB11F17CD28007C9093 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
 		90D8ECB21F17CD28007C9093 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		997BF8861FEFEF8100922857 /* NSString+M2Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+M2Size.m"; sourceTree = "<group>"; };
+		997BF8871FEFEF8100922857 /* NSString+M2Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+M2Size.h"; sourceTree = "<group>"; };
+		997BF88A1FEFF01600922857 /* PreciseSizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreciseSizeViewController.h; sourceTree = "<group>"; };
+		997BF88B1FEFF01600922857 /* PreciseSizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreciseSizeViewController.m; sourceTree = "<group>"; };
+		997BF88D1FEFF4CD00922857 /* UIFont+M2Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+M2Size.h"; sourceTree = "<group>"; };
+		997BF88E1FEFF4CD00922857 /* UIFont+M2Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+M2Size.m"; sourceTree = "<group>"; };
+		997BF8901FEFF7EE00922857 /* UIFont+desc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+desc.h"; sourceTree = "<group>"; };
+		997BF8911FEFF7EE00922857 /* UIFont+desc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+desc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +85,12 @@
 		90C095301F1A04000006FA7D /* M2 */ = {
 			isa = PBXGroup;
 			children = (
-				90C095311F1A041D0006FA7D /* NSString+M2Size.h */,
-				90C095321F1A041D0006FA7D /* NSString+M2Size.m */,
+				997BF8871FEFEF8100922857 /* NSString+M2Size.h */,
+				997BF8861FEFEF8100922857 /* NSString+M2Size.m */,
+				997BF88D1FEFF4CD00922857 /* UIFont+M2Size.h */,
+				997BF88E1FEFF4CD00922857 /* UIFont+M2Size.m */,
+				997BF8901FEFF7EE00922857 /* UIFont+desc.h */,
+				997BF8911FEFF7EE00922857 /* UIFont+desc.m */,
 				90C0953A1F1A0A9D0006FA7D /* M7TempDataGenerator.h */,
 				90C0953B1F1A0A9D0006FA7D /* M7TempDataGenerator.m */,
 				90C0955A1F1FA81E0006FA7D /* UIButton+M2InsetColor.h */,
@@ -133,8 +146,6 @@
 				90C095301F1A04000006FA7D /* M2 */,
 				90D8ECAE1F17CCFB007C9093 /* Label */,
 				90D8ECAD1F17CCFB007C9093 /* Button */,
-				90D8ECAF1F17CCFB007C9093 /* TextField */,
-				90D8ECB01F17CCFB007C9093 /* TextView */,
 			);
 			name = UI;
 			path = Sources/UI;
@@ -153,6 +164,7 @@
 		90D8ECAE1F17CCFB007C9093 /* Label */ = {
 			isa = PBXGroup;
 			children = (
+				997BF8891FEFF00400922857 /* PreciseSize */,
 				90D8ECB11F17CD28007C9093 /* LabelViewController.h */,
 				90D8ECB21F17CD28007C9093 /* LabelViewController.m */,
 				90C095491F1F61400006FA7D /* font.png */,
@@ -170,18 +182,13 @@
 			path = Label;
 			sourceTree = "<group>";
 		};
-		90D8ECAF1F17CCFB007C9093 /* TextField */ = {
+		997BF8891FEFF00400922857 /* PreciseSize */ = {
 			isa = PBXGroup;
 			children = (
+				997BF88A1FEFF01600922857 /* PreciseSizeViewController.h */,
+				997BF88B1FEFF01600922857 /* PreciseSizeViewController.m */,
 			);
-			path = TextField;
-			sourceTree = "<group>";
-		};
-		90D8ECB01F17CCFB007C9093 /* TextView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TextView;
+			path = PreciseSize;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +222,7 @@
 				TargetAttributes = {
 					90D8EC911F17C7FE007C9093 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LD9JLNUXTG;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -257,15 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997BF8881FEFEF8100922857 /* NSString+M2Size.m in Sources */,
 				90C095481F1F52C50006FA7D /* LabelHeightCellLayout.m in Sources */,
+				997BF88F1FEFF4CD00922857 /* UIFont+M2Size.m in Sources */,
 				90C0954D1F1F68240006FA7D /* LabelHeightData.m in Sources */,
 				90C0955C1F1FA81E0006FA7D /* UIButton+M2InsetColor.m in Sources */,
 				90D8EC9D1F17C7FE007C9093 /* RootViewController.m in Sources */,
+				997BF88C1FEFF01600922857 /* PreciseSizeViewController.m in Sources */,
+				997BF8921FEFF7EF00922857 /* UIFont+desc.m in Sources */,
 				90D8EC9A1F17C7FE007C9093 /* AppDelegate.m in Sources */,
 				90C095531F1FA3DC0006FA7D /* ButtonViewController.m in Sources */,
 				90D8EC971F17C7FE007C9093 /* main.m in Sources */,
 				90C095501F1F6A490006FA7D /* LabelHeightData+Layout.m in Sources */,
-				90C095331F1A041D0006FA7D /* NSString+M2Size.m in Sources */,
 				90C095361F1A08650006FA7D /* LabelHeightViewController.m in Sources */,
 				90C095391F1A09910006FA7D /* LabelHeightCell.m in Sources */,
 				90C0953C1F1A0A9D0006FA7D /* M7TempDataGenerator.m in Sources */,
@@ -389,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LD9JLNUXTG;
 				INFOPLIST_FILE = MHelloLabelTextButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenms.m2.MHelloLabelTextButton;
@@ -400,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LD9JLNUXTG;
 				INFOPLIST_FILE = MHelloLabelTextButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenms.m2.MHelloLabelTextButton;

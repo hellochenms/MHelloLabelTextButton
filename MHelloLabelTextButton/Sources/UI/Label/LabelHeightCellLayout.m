@@ -23,8 +23,10 @@ static double const kLineSpace = 20;
 #pragma mark - Calc layout
 - (void)calcLayoutForData:(LabelHeightData *)data containerWidth:(double)containerWidth {
     NSString *title = data.title;
-    self.attributedTitle = [self attributedTitleForTitle:title];
-    double titleHeight = [self titleHeightForTitle:title];
+    NSAttributedString *attributedTitle = nil;
+    double titleHeight = [self titleHeightForTitle:title
+                                  attributedString:&attributedTitle];
+    self.attributedTitle = attributedTitle;
     self.titleFrame = CGRectMake(0, 0, containerWidth, titleHeight);
     
     
@@ -37,36 +39,27 @@ static double const kLineSpace = 20;
     self.cellHeight = CGRectGetMaxY(self.bottomSeparatorFrame);
 }
 
-- (double)titleHeightForTitle:(NSString *)title {
+- (double)titleHeightForTitle:(NSString *)title
+             attributedString:(NSAttributedString **)attributedString {
     if (!title) {
         return 0;
     }
-    double height = [title m2_heightWithGoodLineSpaceForFont:[self titleFont]
-                                                 lineSpacing:kLineSpace
-                                                    maxWidth:CGRectGetWidth([UIScreen mainScreen].bounds)
-                                                maxLineCount:kLHCMaxLineCount];
+    
+    double height = [title m2_heightForFont:[self titleFont]
+                                lineSpacing:kLineSpace
+                                   maxWidth:CGRectGetWidth([UIScreen mainScreen].bounds)
+                               maxLineCount:kLHCMaxLineCount
+                           attributedString:attributedString
+                                    padding:NULL];
     
     return height;
 }
 
 - (double)timeHeight {
-    return [@"1" m2_heightForSingleLineFont:[[self class] timeFont]];
+    return [@"1" m2_heightForSingleLineFont:[[self class] timeFont] padding:nil];
 }
 
 #pragma mark - Content & Style
-- (NSAttributedString *)attributedTitleForTitle:(NSString *)title {
-    if (!title) {
-        return nil;
-    }
-    NSAttributedString *attributedTitle
-    = [title m2_attributedStringWithGoodLineSpaceForFont:[self titleFont]
-                                             lineSpacing:kLineSpace
-                                                maxWidth:CGRectGetWidth([UIScreen mainScreen].bounds)
-                                            maxLineCount:kLHCMaxLineCount];
-    
-    return attributedTitle;
-}
-
 - (UIFont *)titleFont {
     return [UIFont systemFontOfSize:20];
 }

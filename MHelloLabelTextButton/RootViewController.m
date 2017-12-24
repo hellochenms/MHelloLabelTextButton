@@ -10,6 +10,7 @@
 #import "LabelViewController.h"
 #import "LabelHeightViewController.h"
 #import "ButtonViewController.h"
+#import "PreciseSizeViewController.h"
 
 @interface RootViewController (Table)<UITableViewDataSource, UITableViewDelegate>
 - (void)initDatas;
@@ -63,6 +64,7 @@
 - (void)initDatas {
     self.datas = @[@[@"Label天然Padding问题展示", [LabelViewController class]],
                    @[@"Label行间距方案/Cell高度缓存", [LabelHeightViewController class]],
+                   @[@"Label精确尺寸", [PreciseSizeViewController class]],
                    @[@"Button内容偏移/纯色", [ButtonViewController class]],
                    ];
 }
