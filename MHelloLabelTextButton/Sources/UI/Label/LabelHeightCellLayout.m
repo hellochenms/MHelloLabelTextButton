@@ -23,7 +23,7 @@ static double const kLineSpace = 20;
 #pragma mark - Calc layout
 - (void)calcLayoutForData:(LabelHeightData *)data containerWidth:(double)containerWidth {
     NSString *title = data.title;
-    NSAttributedString *attributedTitle = nil;
+    NSMutableAttributedString *attributedTitle = nil;
     double titleHeight = [self titleHeightForTitle:title
                                   attributedString:&attributedTitle];
     self.attributedTitle = attributedTitle;
@@ -40,7 +40,7 @@ static double const kLineSpace = 20;
 }
 
 - (double)titleHeightForTitle:(NSString *)title
-             attributedString:(NSAttributedString **)attributedString {
+             attributedString:(NSMutableAttributedString **)attributedString {
     if (!title) {
         return 0;
     }
@@ -50,7 +50,7 @@ static double const kLineSpace = 20;
                                    maxWidth:CGRectGetWidth([UIScreen mainScreen].bounds)
                                maxLineCount:kLHCMaxLineCount
                            attributedString:attributedString
-                                    padding:NULL];
+                                    padding:nil];
     
     return height;
 }

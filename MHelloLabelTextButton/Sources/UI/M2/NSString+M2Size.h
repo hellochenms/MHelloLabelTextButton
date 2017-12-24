@@ -5,6 +5,7 @@
 //  Created by chenms on 17/7/15.
 //  Copyright © 2017年 chenms.m2. All rights reserved.
 //
+// v20171224A
 
 #import <UIKit/UIKit.h>
 
@@ -26,7 +27,7 @@
                 lineSpacing:(double)lineSpacing
                    maxWidth:(double)maxWidth
                maxLineCount:(NSInteger)maxLineCount
-           attributedString:(NSAttributedString **)attributedString
+           attributedString:(NSMutableAttributedString **)attributedString
                     padding:(double *)padding;
 
 @end

@@ -82,7 +82,7 @@ static NSString * const kOneLineText = @"中p";
                                 lineSpacing:(double)lineSpacing
                                    maxWidth:(double)maxWidth
                                maxLineCount:(NSInteger)maxLineCount
-                           attributedString:(NSAttributedString **)attributedString
+                           attributedString:(NSMutableAttributedString **)attributedString
                                     padding:(double *)padding {
     // Attributes
     NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
@@ -146,7 +146,7 @@ static NSString * const kOneLineText = @"中p";
         attributes = mutableAttributes;
     }
     
-    NSAttributedString *innerAttributedString = [[NSAttributedString alloc] initWithString:self attributes:attributes];
+    NSMutableAttributedString *innerAttributedString = [[NSMutableAttributedString alloc] initWithString:self attributes:attributes];
     
     if (attributedString) {
         *attributedString = innerAttributedString;
